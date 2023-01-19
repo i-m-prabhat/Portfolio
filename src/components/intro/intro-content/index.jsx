@@ -1,6 +1,6 @@
 import React from "react";
-import { BsAwardFill } from "react-icons/bs";
-import { FaUser } from "react-icons/fa";
+// import { BsAwardFill } from "react-icons/bs";
+// import { FaUser } from "react-icons/fa";
 
 import mypic from "../../../images/mypic.png";
 import hand from "../../../images/hand.png";
