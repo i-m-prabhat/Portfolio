@@ -10,17 +10,29 @@
 }
 
 p {
-    @include typography(18px, 400, 24px);
+    @include typography(14px, 400, 20px);
+    @include small-screen {
+        @include typography(18px, 400, 24px);
+    }
 }
 
 h2 {
-    @include typography(42px, 700, 1.2);
+    @include typography(32px, 700, 1.2);
+    @include small-screen {
+        @include typography(42px, 700, 1.2);
+    }
 }
 
 h3 {
-    @include typography(26px, 500, 1.2);
+    @include typography(14px, 500, 1.2);
+    @include small-screen {
+        @include typography(26px, 500, 1.2);
+    }
 }
 
 h4 {
-    @include typography(22px, 500, 1.2);
+    @include typography(16px, 500, 1.2);
+    @include small-screen {
+        @include typography(22px, 500, 1.2);
+    }
 }

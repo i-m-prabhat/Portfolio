@@ -1,5 +1,4 @@
 @import "../../../style-config/variable.scss";
-
 .arrow-icon {
     width: 21px;
     height: 21px;
@@ -9,7 +8,6 @@
     align-items: center;
     justify-content: center;
     margin-left: 10px;
-
     svg {
         transform: rotate(-45deg);
     }

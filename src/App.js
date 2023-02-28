@@ -1,15 +1,25 @@
-import React from 'react'
-import Intro from './components/intro'
-import Skills from './components/skills'
-import './app.scss'
+import React from "react";
+
+import "./app.scss";
+
+import Blogs from "./components/blogs";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import Intro from "./components/intro";
+import Portfolio from "./components/portfolio";
+import Skills from "./components/skills";
 
 const App = () => {
-  return (
-    <div>
-      <Intro/>
-      <Skills/>
-    </div>
-  )
-}
+    return (
+        <div>
+            <Intro />
+            <Skills />
+            <Portfolio />
+            <Blogs />
+            <Contact />
+            <Footer />
+        </div>
+    );
+};
 
-export default App
+export default App;

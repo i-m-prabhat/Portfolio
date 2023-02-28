@@ -13,7 +13,7 @@ const Section = ({ children, id, className, title, background }) => {
             <div className="content">
                 {title && (
                     <div className="section-title">
-                        <h2>{title}</h2>
+                        <h2 className="section-title">{title}</h2>
                     </div>
                 )}
                 {children}

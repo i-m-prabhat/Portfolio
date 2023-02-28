@@ -17,14 +17,18 @@ const IntroContent = () => {
                         <span className="small-text">
                             <span className="text">Hello</span>
                             <span className="icon">
-                                <img src={hand} alt=''/>
+                                <img
+                                    src={hand}
+                                    alt=""
+                                />
                             </span>
                             <span className="text">, I Am</span>
                         </span>
                         <span className="big-text">Prabhat Patel</span>
                     </h1>
                     <p>
-                       I am a Full Stack Developer. You might recognize me as MERN Stack Developer 👨‍💻
+                        I am a Full Stack Developer. You might recognize me as
+                        MERN Stack Developer 👨‍💻
                     </p>
                     <CallToAction text="Contact me" />
                 </div>

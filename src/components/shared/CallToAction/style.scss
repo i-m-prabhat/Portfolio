@@ -1,5 +1,5 @@
-@import "../../../style-config/variable.scss";
-@import "../../../style-config/mixins.scss";
+@import "../../../style-config/variable.scss",
+    "../../../style-config/mixins.scss";
 
 .call-to-action {
     height: 47px;
@@ -15,19 +15,17 @@
     position: relative;
     overflow: hidden;
     @include typography(18px, 400, 1);
-
     .text,
-    .arrow-icon,
-    .icon {
+    .icon,
+    .arrow-icon {
         position: relative;
         z-index: 1;
         transition: all ease 500ms;
     }
-
     .icon {
         width: 21px;
         height: 21px;
-        background-color: $yellow;
+        background: $yellow;
         border-radius: 41px;
         display: flex;
         align-items: center;
@@ -35,27 +33,24 @@
         margin-left: 10px;
         font-size: 12px;
     }
-
     &:before {
         content: "";
         position: absolute;
         left: 0;
         width: 100%;
         height: 100%;
-        background: $yellow;
+        background-color: $yellow;
         z-index: 0;
         transform: translateX(-100%);
         transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
-
     &:hover {
         &:before {
             transform: translateX(0);
         }
-
         .arrow-icon,
         .icon {
-            background: $white;
+            background-color: $white;
         }
     }
 }

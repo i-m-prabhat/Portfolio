@@ -1,14 +1,13 @@
 import React from "react";
 
-import cloud from "../../images/cloud.png";
-import cloudSoft from "../../images/cloud-soft.png";
 import Navigation from "./navigation-bar";
 import IntroContent from "./intro-content";
+import cloud from "../../images/cloud.png";
+import cloudSoft from "../../images/cloud-soft.png";
 
 import "./style.scss";
 
-const Intro = () =>
-{
+const Intro = () => {
     return (
         <div className="Intro-section">
             <div
@@ -17,11 +16,13 @@ const Intro = () =>
             ></div>
             <img
                 src={cloud}
-                className="cloud" alt=""
+                className="cloud"
+                alt="cloud"
             />
             <img
                 src={cloudSoft}
-                className="cloud-soft" alt=""
+                className="cloud-soft"
+                alt=""
             />
             <div className="content">
                 <Navigation />

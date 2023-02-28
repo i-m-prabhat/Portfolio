@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
+
 import "./style.scss";
 
 const Arrow = () => {
